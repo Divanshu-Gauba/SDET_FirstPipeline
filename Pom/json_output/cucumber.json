@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9503000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to naviagte onto the login page",
+            "match": {
+              "location": "StepDefinition.Steps.i_am_able_to_naviagte_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T04:18:37.821Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26893000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Steps.beforetest()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Login with Negative data",
+        "description": "",
+        "id": "login-features;login-with-negative-data",
+        "after": [
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1327000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Enter the username as \"sunil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sunil\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.Steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I Enter the password as \"sunil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sunil\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.Steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4943000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDefinition.Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should see a Error meassage as \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.Steps.i_should_see_a_error_meassage_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login Features",
+    "description": "This feature includes scenario that would validate the following features.\n1. Login as Admin\n2. Login as Linda.anderson\n3. Login with Negative data",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Login/login.feature",
+    "tags": []
+  }
+]
